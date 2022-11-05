@@ -34,16 +34,94 @@ html {
 
 /*main styles*/
 
+
+
 main {
+    max-width: 374px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2.2rem
 }
 
+
+/*text box styles*/
+
 .text {
     text-align: center;
+    margin-top: 7.5rem;
+    color: hsl(300, 43%, 22%);
 }
+
+.text h1 {
+    font-size: 4rem;
+    line-height: .8;
+}
+
+.text p {
+    margin-top: 1.5rem;
+    font-size: 1.65rem;
+    line-height: 1.5
+}
+
+
+/*ratings box styles*/
+
+.ratings {
+    width: 100%;
+    margin-top: 3.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.rating-container {
+    background-color: hsl(300, 24%, 96%);
+    width: 100%;
+    border-radius: 8px;
+}
+
+.star-icon {
+    margin-top: 1.5rem;
+    margin-left: .6rem;
+}
+
+.rating-container h3 {
+    margin: 1.3rem auto;
+    color: hsl(300, 43%, 22%);
+    font-size: 1.5rem;
+}
+
+
+/*testimonies styles*/
+
+.testimonies {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.testimony-container {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 8px;
+    padding: 3rem;
+}
+
+.testimony-id {
+    display: flex;
+    gap: 2rem;
+}
+
+.id-photo {
+    max-width: 40px;
+    border-radius: 50%;
+}
+
+
+
+
+
 
 
 
